@@ -86,6 +86,7 @@ img {
     display: flex;
     align-items: center;
     column-gap: .5rem;
+    width: 10vw;
 
 }
 .nav---logo img {
@@ -94,7 +95,7 @@ img {
 @media screen and (max-width: 1023px){
     .nav---menu{
         position:fixed;
-        background-color: hsla(180, 12%, 8%, .8);
+        /* background-color: hsla(180, 12%, 8%, .8); */
         /* backdrop-filter: blur(32px);
         --webkit-backdrop-filter: blur(32px); */
         top: 0;
