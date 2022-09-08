@@ -22,6 +22,8 @@ font-family: 'PT Serif', serif;
     --fourth-color: #FAD9C1;
     --fifth-color:#F9CAA7;
     --sixth-color:#FFFFFF;
+    --seventh-color: rgba(15, 7, 4, 0.91);
+
 
     /* =========Z-INDEX======== */
     --z-tooltip: 10;
@@ -82,11 +84,14 @@ img {
     z-index: var(--z-fixed);
     transition: background .3s;
 }
+
+
 .nav---logo {
     display: flex;
     align-items: center;
     column-gap: .5rem;
-    /* width: 10vw; */
+    width: 120px;
+    height: 120px;
 
 }
 .nav---logo img {
@@ -96,8 +101,8 @@ img {
     .nav---menu{
         position:fixed;
         /* background-color: hsla(180, 12%, 8%, .8); */
-        /* backdrop-filter: blur(32px);
-        --webkit-backdrop-filter: blur(32px); */
+        backdrop-filter: blur(32px);
+        --webkit-backdrop-filter: blur(32px);
         top: 0;
         right: -100%;
         width: 80%;
@@ -115,9 +120,5 @@ img {
     
 }
 a {
-    color: var(--first-color);
-}
-.nav---logo img{
-    height: 10%;
-    width: 10%;
+    color: var(--seventh-color);
 }
