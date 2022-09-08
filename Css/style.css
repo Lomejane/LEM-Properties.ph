@@ -86,7 +86,7 @@ img {
     display: flex;
     align-items: center;
     column-gap: .5rem;
-    width: 10vw;
+    /* width: 10vw; */
 
 }
 .nav---logo img {
@@ -116,4 +116,8 @@ img {
 }
 a {
     color: var(--first-color);
+}
+.nav---logo img{
+    height: 10%;
+    width: 10%;
 }
