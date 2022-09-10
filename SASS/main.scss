@@ -1,0 +1,20 @@
+$primary: #FE9C8F;
+$secondary: #FAD9C1;
+$info: #F9CAA7;
+
+$modal-backdrop-bg: lightgrey;
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+//Theme Colors:
+$myThemeColors: (
+    "favorite1": #FEB2A8,
+    "favorite2": #FEC8C1,
+);
+$theme-colors: map-merge($myThemeColors, $theme-colors);
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import"../node_modules/bootstrap/dist/css/bootstrap.css";
+// primary - #FE9C8F
+// secondary - #FAD9C1
+// info - #F9CAA7
+//other colors #FEB2A8; #FEC8C1

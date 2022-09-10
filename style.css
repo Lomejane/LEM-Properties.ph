@@ -1,0 +1,267 @@
+.navbar {
+    /* background-color: #6b6054; */
+    background-color: rgba(83, 45, 4, 0.5);
+}
+.navbar-brand {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif cursive;
+    color: white;
+}
+
+.nav-item {
+    border-radius: 16px;
+    padding-right: 7px;
+}
+
+.mainHeader {
+    font-family: 'Satisfy', cursive;
+    /* font-family: 'Lora', serif; */
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+.active {
+    /* font-style: italic; */
+    color: #929487;
+}
+
+.mainP {
+    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Satisfy', cursive; */
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+.nav-item, .navbar-brand {
+    /* transition: 50ms linear; */
+    transition: all .2s ease-in-out;
+}
+.nav-item:hover {
+    background-color: #F9CAA7;
+    transform: scale(1.1    0);
+}
+
+.ul li:hover {
+    background: rgba(187, 170, 152, 0.5); 
+}
+
+
+
+.a:active {
+    color: red;
+}
+
+.card {
+    background-color: rgba(83, 45, 4, 0.75);
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 1px;
+    margin-right: 1px;
+    max-width:400px;
+    /* transition: width 2s ease; */
+    /* border: solid rgb(61, 32, 1); */
+    /* box-shadow: -5px 5px 17px 9px rgba(97,92,92,0.62);
+-webkit-box-shadow: -5px 5px 17px 9px rgba(97,92,92,0.62);
+-moz-box-shadow: -5px 5px 17px 9px rgba(97,92,92,0.62); */
+/* -webkit-user-select: none; */
+    /* width: 25%; */
+    -webkit-transition: transform .5s;
+    transform-origin: center;
+    z-index: 0;
+    vertical-align: top;
+    transition:all 1s;
+}
+.card-body p {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14pt;
+    font-style: italic;
+    color: aliceblue;
+}
+.card-footer{
+    border: none;
+    text-align: center;
+    background: none;
+    transition: 50ms linear;
+}
+/* .card-footer {
+    
+} */
+
+.card-footer:hover {
+    transform: scale(1.20);
+}
+.card:hover {
+
+    background-color: #929487;
+        /* display:block; */ /* deactivated - tends to move the button at footer up to the center */
+    transform: scale(1.1);
+    /* transform-style:flat; */
+    transition-delay: 0.4s;
+    /* transition-duration: 0.5s; */
+    transition: all 1s;
+    z-index: 5;
+
+}
+
+
+.card-title {
+    color:black;
+    font-size: 20px;
+    text-align: center;  
+    font-family: 'Lora', serif;  
+}
+
+.card-subtitle {
+    font-family: 'Satisfy', cursive;
+}
+
+.card-text  {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16pt;
+    color:rgb(255, 233, 210);
+}
+    
+    
+
+h4 {
+    
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    /* font-weight: bolder; */
+    align-items: center;
+}
+.text-justify{
+    text-align:justify ;
+}
+.footerAttr {
+    
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight:900;
+    align-items: center;
+}
+
+.footerHeight{
+    height: 350px;
+    padding-top: 300px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.imgWidth{
+    width: 50%;
+    height: auto;
+}
+
+
+/* .btn-secondary {
+    background-color: rgba(83, 45, 4, 1);
+} */
+
+/* .btn-secondary:hover {
+    background-color: rgba(0, 0, 0, 0.493);
+
+} */
+
+/* Product Category Card Background Color */
+
+.modal-header{
+    background-color:  #F9CAA7;
+    color: black;
+}
+.modalCard{
+    background-color: rgba(83, 45, 4, 0.75);
+    max-width: 400px;
+    margin: auto;
+    border:solid, rgba(83, 45, 4, 1);
+    border-radius: 10px;
+    border-style: ridge;
+    text-align: center;
+}
+.modalCard p{
+    color: black;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.modalCard p button {
+    border:none;
+    outline: none;
+    padding:12px;
+    color:whitesmoke;
+    background-color:rgba(83, 45, 4, 1);
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 12pt;
+    border-radius: 10px;
+
+}
+.modalImage{
+    width: 200px;
+    height: auto;
+    padding-top:10px;
+    padding-bottom: 4px;
+    
+}
+.modalText{
+     font-family: Arial, Helvetica, sans-serif;
+    font-size: 12pt;
+}
+.modalPrice{
+    opacity: .4;
+}
+
+/* Profile pictures */
+.image1 img{
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    height: 200px;
+    width: 100%;
+}
+.image2 img{
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+    width: 140px;
+    height: 140px;
+    border-radius:50%;
+    border: 7px solid #fff;
+    margin-top: -70px;
+}
+
+.checkout:hover{
+    opacity: .7;
+}
+
+.carousel-img {
+    object-fit: cover;
+    object-position: center;
+    height: 85vh;
+    overflow: hidden;
+}
+
+            /* checkout page classes */
+
+.btn-group-vertical>.btn:not(:first-child),.btn-group-vertical>.btn-group:not(:first-child) {
+margin-top: 0;
+}
+
+.footer:hover{
+    opacity: .7;
+}
+
+
+.COLORSCHEME {
+color: #FE9C8F;
+color: #FAD9C1;
+color: #F9CAA7;
+color: #FEB2A8;
+color: #FEB2A8;
+}
