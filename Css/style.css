@@ -1,5 +1,5 @@
-/* ------Goggle Fonts------- */
-@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:wght@100&family=PT+Serif&display=swap');
+/* ------Goggle Fonts-------
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Archivo:wght@100&family=PT+Serif&display=swap'); */
 /*
 font-family: 'Archivo', sans-serif;
 font-family: 'Archivo Black', sans-serif;
@@ -12,11 +12,11 @@ font-family: 'PT Serif', serif;
 
 /* -------VARIABLE CSS------ */
 
-:root {
+/* :root {
     --header-height: 3.5rem;
 
 /* ========COLORS==== */
-    --first-color: #FE9C8F;
+    /* --first-color: #FE9C8F;
     --second-color: #FEB2A8;
     --third-color: #FEC8C1;
     --fourth-color: #FAD9C1;
@@ -26,14 +26,14 @@ font-family: 'PT Serif', serif;
 
 
     /* =========Z-INDEX======== */
-    --z-tooltip: 10;
+    /* --z-tooltip: 10;
     --z-fixed: 100;
-}
+} */
 
 
 /* RESPONSIVE TYPOGRAPHY */
-@media screen and (min-width: 1024px) {
-    :root {
+/* @media screen and (min-width: 1024px) { */
+    /* :root {
         --biggest-font-size: 6rem;
         --bigger-font-size: 3.5rem;
         --big-font-size: 2.75rem;
@@ -45,10 +45,10 @@ font-family: 'PT Serif', serif;
         --smaller-font-size: .75rem;
 
     } 
-}
+} */ 
 
 /* -----------Base------------- */
-* {
+/* * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -101,14 +101,14 @@ img {
     .nav---menu{
         position:fixed;
         /* background-color: hsla(180, 12%, 8%, .8); */
-        backdrop-filter: blur(32px);
+        /* backdrop-filter: blur(32px);
         --webkit-backdrop-filter: blur(32px);
         top: 0;
         right: -100%;
         width: 80%;
-        height: 100%;
+        height: 100%; */
         /* border-left: 2px solid var(--first-color-gray); */
-        transition: right .3s;
+        /* transition: right .3s;
     }
 }
 
@@ -121,4 +121,321 @@ img {
 }
 a {
     color: var(--seventh-color);
+}
+.nav---link {
+    color: var(--title-color);
+    transition: color .3s;
+}
+
+.nav---link:hover {
+    color: var(--title-color);
+}
+a.button.button---flex:hover{
+    color: var(--title-color);
+}
+
+.nav---close {
+    position: absolute;
+    top: 1rem;
+    right: 1.5rem;
+    font-size: 1.5rem;
+    color: var(--title-color);
+    cursor: pointer;
+} */ 
+/* 
+.nav .nav---button{
+    background-color: (--title-color);
+    border: none;
+} */
+/* ------Show Menu------- */
+/* .show-menu {
+    right: 0;
+} */ 
+
+/* :root {
+    --header-height: 3.5rem; */
+
+
+/* -------Colors--------- */
+/* color made HSL(huge, saturation, lightness*/
+    /* --first-color: hsl(79, 72%, 55%);
+    --first-color-light: hsl(79,97%, 77%);
+    --first-color-alt: hsl(79, 67%, 52%);
+    --first-color-dark: hsl(79, 63%, 50%);
+    --first-color-hover: hsl(79, 56%, 57%);
+    --first-color-gray: hsl(79, 6%, 64%);
+    --title-color: hsl(180, 4%, 98%);
+    --title-color-black: hsl(180, 4%, 12%);
+    --text-color: hsl(180, 4%, 72%);
+    --text-color-light: hsl(180%, 4%, 65%);
+    --body-color: hsl(180, 12%, 8%); */
+
+    /* ========COLORS==== */
+    /* --first-color: #FE9C8F;
+    --second-color: #FEB2A8;
+    --third-color: #FEC8C1;
+    --fourth-color: #FAD9C1;
+    --fifth-color:#F9CAA7;
+    --sixth-color:#FFFFFF;
+    --seventh-color: rgba(15, 7, 4, 0.91);
+
+
+
+/* ---------FONT AND TYPOGRAPHY-------- */
+/* .5rem = 8px | 1rem = 16px... */
+
+    /* --body--font: 'Red Hat Display', sans-serif;   
+    --second-font: 'Kaushan Script', cursive;;
+    --biggest-font-size: 2rem;
+    --bigger-font-size: 1.5rem;
+    --big-font-size: 1.25rem;
+    --h1-font-size: 1.5rem;
+    --h2-font-size: 1.25rem;
+    --h3-font-size: 1rem;
+    --normal-font-size: .938rem;
+    --small-font-size:  .813rem;
+    --smaller-font-size: .75rem; */
+
+/* ---------------FONT WEIGHT-------------- */
+    /* --font-bold: 700;
+    --font-black: 900; */
+
+/* ----------------Z-INDEX----------------------- */
+    /* --z-tooltip: 10;
+    --z-fixed: 100;
+    } */
+
+/* RESPONSIVE TYPOGRAPHY */
+/* @media screen and (min-width: 1024px) {
+    :root {
+        --biggest-font-size: 6rem;
+        --bigger-font-size: 3.5rem;
+        --big-font-size: 2.75rem;
+        --h1-font-size: 1.5rem;
+        --h2-font-size: 1.25rem;
+        --h3-font-size: 1rem;
+        --normal-font-size: .938rem;
+        --small-font-size: .813rem;
+        --smaller-font-size: .75rem;
+    
+
+    }
+    
+} */
+
+/* -----------Base------------- */
+/* * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body,
+button,
+input{
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+}
+
+body {
+    background-color: var(--body-color);
+    color: var(--text-color);
+}
+
+h1, h2, h3 {
+    color: var(--text-color);
+    font-weight: var(--font-bold);
+}
+
+ul {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+/* ------Reusable css classes */
+/* .container {
+    max-width: 1124px;
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+}
+
+.section {
+    padding: 4.5rem 0 2rem;
+}
+
+.section--data {
+    display:contents;
+    flex-direction: column;
+    row-gap: 75rem;
+    margin-bottom: 3rem;
+}
+
+.section--title,
+.section--title--border {
+    font-size: var(--big-font-size);
+    letter-spacing: 1.5px;
+}
+
+.section--subtitle {
+    font-size: var(--h2-font-size);
+    font-family: var(--second-font);
+    font-weight: 400;
+    letter-spacing: 1.5px;
+    color:var(--first-color) ;
+    transform: rotate(-2dg);
+}
+
+.section--title,
+.section--subtitle,
+.section--title--border {
+    display: flex;
+    column-gap: 75rem;
+    justify-content: center;
+}
+
+.section--title--border {
+    -webkit-text-stroke: 1px var(--text-color);
+    color: transparent;
+}
+
+.grid {
+    display: grid;
+    gap: 1.5rem;
+}
+
+.main {
+    overflow: hidden; /* for scroll animation*/
+/* }  */
+/* ---------Header  & Nav----- */
+/* .header {
+    width: 100%;
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: var(--z-fixed);
+    transition: background .3s;
+}
+.color-red {
+    color: hsl(o, 80%, 64%);
+}
+.color-green{
+    color: var(--first-color);
+}
+
+.nav {
+    height: var(--header-height);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav--logo,
+.nav--toggle{
+     color: var(--title-color);
+     display: flex;
+}
+
+.nav--logo {
+    align-items: center;
+    column-gap: .5rem;
+    font-weight: var(--font-bold);
+}
+
+img.nav--logo {
+    width: 120px;
+    border-radius: 50%;
+}
+
+.nav--toggle {
+    font-size: 1.25rem;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1023px){
+    .nav--menu{
+        position:fixed;
+        background-color: hsla(180, 12%, 8%, .8);
+        backdrop-filter: blur(32px);
+        --webkit-backdrop-filter: blur(32px);
+        top: 0;
+        right: -100%;
+        width: 80%;
+        height: 100%;
+        border-left: 2px solid var(--first-color-gray);
+        transition: right .3s;
+    }
+}
+
+.nav--list {
+    padding: 5rem 0 0 3rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2.3rem;
+}
+
+.nav--link {
+    color: var(--title-color);
+    transition: color .3s;
+}
+
+.nav--link:hover {
+    color: var(--title-color);
+}
+a.button.button--flex:hover{
+    color: var(--title-color);
+}
+
+.nav--close {
+    position: absolute;
+    top: 1rem;
+    right: 1.5rem;
+    font-size: 1.5rem;
+    color: var(--title-color);
+    cursor: pointer;
+}
+
+.nav .nav--button{
+    background-color: (--title-color);
+    border: none;
+} */
+/* ------Show Menu------- */
+/* .show-menu {
+    right: 0;
+} */
+
+/* Change background header */
+/* .bg-header{
+    background-color: var(--body-color);
+    box-shadow: 0 4px 8px hsl(180%, 12%, 4%, .3);
+} */
+
+/* Home */
+/* .home {
+    position: relative;
+    padding-bottom: 0;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    background-color: #FE9C8F;
+    padding: 10px;
+}
+.grid-container > div {
+    background-color: #e2afa8;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
 }
