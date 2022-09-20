@@ -126,7 +126,7 @@ a {
 
 } */
 
-}
+
 
 /* .card-footer {
     
@@ -136,59 +136,11 @@ a {
 /* .card-footer:hover {
     transform: scale(1.20);
 } */
-.card:hover {
-
-    background-color: #F9CAA7;
-        /* display:block; */ /* deactivated - tends to move the button at footer up to the center */
-    transform: scale(1.1);
-    transform-origin: center;
-
-.card-footer:hover {
-    transform: scale(1.20);
-}
-.card:hover {
-
-    background-color: #929487;
-        /* display:block; */ /* deactivated - tends to move the button at footer up to the center */
-    transform: scale(1.1);
-
-    /* transform-style:flat; */
-    transition-delay: 0.4s;
-    /* transition-duration: 0.5s; */
-    transition: all 1s;
-    z-index: 5;
-
-}
-
-
-
 
 
 /* .card-subtitle {
     font-family: 'Satisfy', cursive;
-} */
-
-
-
-.card-title {
-    color:black;
-    font-size: 20px;
-    text-align: center;  
-    font-family: 'Lora', serif;  
-}
-
-.card-subtitle {
-    font-family: 'Satisfy', cursive;
-}
-
-.card-text  {
-    font-family: 'Poppins', sans-serif;
-    font-size: 16pt;
-    color:rgb(255, 233, 210);
-}
-
-    
-    
+} */   
 
 h4 {
     
@@ -396,7 +348,7 @@ color: #FEC8C1;
   }
   .card-body{
     /* width: 300px; */
-    height: auto;
+    height: 300px;
     padding-left: 2px;
     padding-right: 2px;
     /* overflow-y: auto; */
@@ -454,10 +406,6 @@ color: #FEC8C1;
     color: white;
   } */
 
-color: #FE9C8F;
-color: #FAD9C1;
-color: #F9CAA7;
-color: #FEB2A8;
-color: #FEB2A8;
-}
+
+
 
