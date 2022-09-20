@@ -26,11 +26,19 @@ a {
     color: #929487;
 }
 
+
 /* .mainP {
     font-family: 'Poppins', sans-serif;
     /* font-family: 'Satisfy', cursive; */
     /* text-align: center; */
 /* } */ */
+
+.mainP {
+    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Satisfy', cursive; */
+    text-align: center;
+}
+
 
 a {
     text-decoration: none;
@@ -56,6 +64,7 @@ a {
 }
 
 .card {
+
     /* background: black; */
     margin: 10px;
     width: fit-content;
@@ -65,6 +74,14 @@ a {
     margin-left: 1px;
     margin-right: 1px;
     max-width:800px; */
+
+    background-color: rgba(83, 45, 4, 0.75);
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 1px;
+    margin-right: 1px;
+    max-width:400px;
+
     /* transition: width 2s ease; */
     /* border: solid rgb(61, 32, 1); */
     /* box-shadow: -5px 5px 17px 9px rgba(97,92,92,0.62);
@@ -74,6 +91,7 @@ a {
     /* width: 25%; */
     -webkit-transition: transform .5s;
     transform-origin: center;
+
     z-index: 4;
     vertical-align: top;
     transition:all 1s;
@@ -88,14 +106,32 @@ a {
     color:#04AA6D;
 } */
 /* .card-footer{
+
+    z-index: 0;
+    vertical-align: top;
+    transition:all 1s;
+}
+.card-body p {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14pt;
+    font-style: italic;
+    color: aliceblue;
+}
+.card-footer{
+
     border: none;
     text-align: center;
     background: none;
     transition: 50ms linear;
+
 } */
+
+}
+
 /* .card-footer {
     
 } */
+
 
 /* .card-footer:hover {
     transform: scale(1.20);
@@ -106,6 +142,16 @@ a {
         /* display:block; */ /* deactivated - tends to move the button at footer up to the center */
     transform: scale(1.1);
     transform-origin: center;
+
+.card-footer:hover {
+    transform: scale(1.20);
+}
+.card:hover {
+
+    background-color: #929487;
+        /* display:block; */ /* deactivated - tends to move the button at footer up to the center */
+    transform: scale(1.1);
+
     /* transform-style:flat; */
     transition-delay: 0.4s;
     /* transition-duration: 0.5s; */
@@ -117,10 +163,29 @@ a {
 
 
 
+
 /* .card-subtitle {
     font-family: 'Satisfy', cursive;
 } */
 
+
+
+.card-title {
+    color:black;
+    font-size: 20px;
+    text-align: center;  
+    font-family: 'Lora', serif;  
+}
+
+.card-subtitle {
+    font-family: 'Satisfy', cursive;
+}
+
+.card-text  {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16pt;
+    color:rgb(255, 233, 210);
+}
 
     
     
@@ -257,6 +322,7 @@ margin-top: 0;
 
 
 .COLORSCHEME {
+
 color: #FE9C8F; /* primary */
 color: #FAD9C1; /* secondary */
 color: #FEB2A8; /* info */
@@ -387,3 +453,11 @@ color: #FEC8C1;
     background-color: #666;
     color: white;
   } */
+
+color: #FE9C8F;
+color: #FAD9C1;
+color: #F9CAA7;
+color: #FEB2A8;
+color: #FEB2A8;
+}
+
