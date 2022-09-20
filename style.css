@@ -26,11 +26,11 @@ a {
     color: #929487;
 }
 
-.mainP {
+/* .mainP {
     font-family: 'Poppins', sans-serif;
     /* font-family: 'Satisfy', cursive; */
-    text-align: center;
-}
+    /* text-align: center; */
+/* } */ */
 
 a {
     text-decoration: none;
@@ -56,12 +56,15 @@ a {
 }
 
 .card {
-    background-color: rgba(83, 45, 4, 0.75);
-    margin-top: 2px;
+    /* background: black; */
+    margin: 10px;
+    width: fit-content;
+    border-radius: 5px;
+    /* margin-top: 2px;
     margin-bottom: 2px;
     margin-left: 1px;
     margin-right: 1px;
-    max-width:400px;
+    max-width:800px; */
     /* transition: width 2s ease; */
     /* border: solid rgb(61, 32, 1); */
     /* box-shadow: -5px 5px 17px 9px rgba(97,92,92,0.62);
@@ -71,34 +74,38 @@ a {
     /* width: 25%; */
     -webkit-transition: transform .5s;
     transform-origin: center;
-    z-index: 0;
+    z-index: 4;
     vertical-align: top;
     transition:all 1s;
 }
-.card-body p {
+/* .card-body{
+    background-color:none;  /* FEB2A8 */;
+/* } */ */
+/* .card-body p {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     font-size: 14pt;
     font-style: italic;
-    color: aliceblue;
-}
-.card-footer{
+    color:#04AA6D;
+} */
+/* .card-footer{
     border: none;
     text-align: center;
     background: none;
     transition: 50ms linear;
-}
+} */
 /* .card-footer {
     
 } */
 
-.card-footer:hover {
+/* .card-footer:hover {
     transform: scale(1.20);
-}
+} */
 .card:hover {
 
-    background-color: #929487;
+    background-color: #F9CAA7;
         /* display:block; */ /* deactivated - tends to move the button at footer up to the center */
     transform: scale(1.1);
+    transform-origin: center;
     /* transform-style:flat; */
     transition-delay: 0.4s;
     /* transition-duration: 0.5s; */
@@ -108,22 +115,13 @@ a {
 }
 
 
-.card-title {
-    color:black;
-    font-size: 20px;
-    text-align: center;  
-    font-family: 'Lora', serif;  
-}
 
-.card-subtitle {
+
+/* .card-subtitle {
     font-family: 'Satisfy', cursive;
-}
+} */
 
-.card-text  {
-    font-family: 'Poppins', sans-serif;
-    font-size: 16pt;
-    color:rgb(255, 233, 210);
-}
+
     
     
 
@@ -259,9 +257,133 @@ margin-top: 0;
 
 
 .COLORSCHEME {
-color: #FE9C8F;
-color: #FAD9C1;
+color: #FE9C8F; /* primary */
+color: #FAD9C1; /* secondary */
+color: #FEB2A8; /* info */
 color: #F9CAA7;
-color: #FEB2A8;
-color: #FEB2A8;
+color: #FEC8C1;
 }
+
+.filterButtonsVertical {
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.filterButtonsVertical a {
+    background-color: #eee; /* Grey background color */
+    color: black; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    padding: 12px; /* Add some padding */
+    margin-top: 4px;
+    margin-bottom: 4px;
+    text-decoration: none; /* Remove underline from links */
+  }
+  
+  .filterButtonsVertical a:hover {
+    background-color: #ccc; /* Dark grey background on mouse-over */
+  }
+  
+  .filterButtonsVertical a.active {
+    background-color: #04AA6D; /* Add a green color to the "active/current" link */
+    color: white;
+  }
+/*used for filter section*/
+.container {
+    overflow: hidden;
+  }
+  
+  .propertyDiv {
+    float: left;
+    background-color: #FE9C8F;
+    color: gray;
+    /* width: 300px; */
+    height: 500px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: none; /* Hidden by default */
+    padding: 5px;
+    margin: 10px;
+    width: 350px;
+    border-radius: 5px;
+  -webkit-transition: transform .5s;
+    transform-origin: center;
+    z-index: 4;
+    vertical-align: top;
+    transition:all 1s;
+    overflow: auto;
+    padding: 25px;
+    justify-content: center;
+
+  }
+  .propertyDiv:hover{
+    background-color: #F9CAA7;
+        /* display:block; */ /* deactivated - tends to move the button at footer up to the center */
+    transform: scale(1.1);
+    transform-origin: center;
+    /* transform-style:flat; */
+    transition-delay: 0.4s;
+    /* transition-duration: 0.5s; */
+    transition: all 1s;
+    z-index: 5;
+  }
+  .card-body{
+    /* width: 300px; */
+    height: auto;
+    padding-left: 2px;
+    padding-right: 2px;
+    /* overflow-y: auto; */
+    flex-wrap: wrap;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ccc;
+  }
+  .card-title {
+    color:black;
+    font-size: 20px;
+    text-align: center;  
+    font-family: 'Lora', serif;
+}
+.card-text  {
+    font-family: 'Poppins', sans-serif;
+    font-size: 12pt;
+    color:gray;
+    flex-wrap: wrap;
+}
+  .imageSize{
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+
+  }
+  
+  /* The "show" class is added to the filtered elements */
+  .show {
+    display: block;
+  }
+  
+  /* Style the buttons */
+  .btn {
+    border: none;
+    outline: none;
+    padding: 12px 16px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+  }
+  
+  /* Add a light grey background on mouse-over */
+  /* .btn:hover {
+    background-color: #ddd;
+  } */
+  
+  /* Add a dark background to the active button */
+  /* .btn.active {
+    background-color: #666;
+    color: white;
+  } */
