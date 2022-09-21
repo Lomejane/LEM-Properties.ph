@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="home.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins:wght@300;500&display=swap" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    </head>
+
+    <body>
+
+        <header>
+
+            <nav>
+                <div class="logo-image">
+                    <a href="#home"><img src="./images/lem-logo.png" alt="logo-image"></a>
+                </div>
+                <ul>
+                    <a href="#about" class="nav-list"><li>About</li></a>
+                    <a href="#property" class="nav-list"><li>Property</li></a>
+                    <a href="#pricing" class="nav-list"><li>Pricing</li></a>
+                    <a href="#pricing" class="nav-list"><li><button class="login-button">Login</button></li></a>
+                    
+                </ul>
+            </nav>
+
+        </header>
+
+        <main>
+
+            <div id="home">
+                <div class="hero-section">
+                    <div class="grid-container-hero">
+                        <div class="hero-subtitle">
+                            <h3>The best platform to Rent and Sell properties</h3> 
+                            <p>See properties that might pique your interests</p>
+                            <button>EXPLORE</button>
+                        </div>
+
+                        <div class="cover-image-hero">
+                            <img src="./images/househero.jpg" alt="">
+                        </div>
+                        <div class="overlap"></div>
+                    </div>
+                    <!-- <div class="hero-content">
+                        <p>The best platform to buy and sell properties</p>
+                        <div class="search-container">
+                            <img src="./images/lem-logo.png" alt="logo">
+                            <p>Look for properties</p>
+                             <span class="icon"><i class="ri-search-line"></span></i> -->
+                                <!-- <div class="search-bar"> -->
+                                    <!-- <input type="text" >
+                                </div>
+                        </div>
+                    </div> -->
+                </div>
+                 <!--SEARCH-GRID-->
+                <div class="grid-container-search">
+                    <div class="Choose-location">
+                        <select class="Choose-location" id="inputGroupSelect01">
+                        <option selected>Choose Location</option>
+                        <option value="1">Manila</option>
+                        <option value="2">Luzon</option>
+                        <option value="3">Visayas</option>
+                        <option value="4">Mindanao</option>
+                        </select>
+                    </div>
+                    <div class="No-Bedrooms">
+                        <select class="No-Bedrooms" id="inputGroupSelect02">
+                        <option selected>Select No. of Bedrooms</option>
+                        <option value="1">2 Bedrooms</option>
+                        <option value="2">3 Bedrooms</option>
+                        <option value="3">4-5 Bedrooms</option>
+                        <option value="4">6-7 Bedrooms</option>
+                        </select>
+                    </div>
+                    <div class="slidecontainer">
+                        <input type="range" min="10" max="50" value="50" class="slider" id="myRange">
+                        <p>Price Range: <span>K </span><span id="demo"></span></p>
+                    </div>
+    
+                    <div class="search-Btn">
+                        <button>Search</button>
+                    </div>
+                </div>
+
+                <!--GRID PLACES-->
+                <section id="Grid-places">
+                    <div class="places-title">
+                        <h3>Discover Awsome Properties</h3>
+                    </div>
+                    <div class="grid-container-places">
+                        <div class="grid-item-place">
+                            <img src="./images/diningarea.jpg" alt="Property Image">
+                            <div class="text-overlap"><h3>Luzon</h3></div>
+                        </div>
+                        <div class="grid-item-place">
+                            <img src="./images/mindanao.jpg" alt="Property Image">
+                            <div class="text-overlap"><h3>Visayas</h3></div>
+                        </div>
+                        <div class="grid-item-place">
+                            <img src="./images/bathroom.jpg" alt="Property Image">
+                            <div class="text-overlap"><h3>Mindanao</h3></div>>
+                        </div>
+                    </div>
+                </section>
+            <section id="discover">
+                <div class="discover-heading-container">
+                    <div class="discover-heading">
+                        <h2>All Over The Phillippines</h2>
+                    </div>
+
+                    <div class="grid-container-discover">
+                        <div class="grid-item-discover1">
+                            <div class="text-discover">
+                                <p>Lorem ipsum dolor sit amet cique accusantium expedita consequatur debitis doloremque.</p>
+                                <button>See Details</button>
+                            </div>
+                            <div class="image-discover"><img src="./images/room4.jpg" alt="">
+                                <p>Location: 123 Riza St. Magsaysay City</p>
+                                <p>No. of Bedrooms: 3 Only</p>
+                                <p>Price: ₱ 10,000 Monthly </p>
+                            </div>
+                        </div>
+                        <div class="grid-item-discover1">
+                            <div class="text-discover">
+                                <p>Lorem ipsum dolor sit amet cique accusantium expedita consequatur debitis doloremque.</p>
+                                <button>See Details</button>
+                            </div>
+                            <div class="image-discover"><img src="./images/room3.jpg" alt="">
+                                <p>Location: 123 Riza St. Magsaysay City</p>
+                                <p>No. of Bedrooms: 3 Only</p>
+                                <p>Price: ₱ 10,000 Monthly </p>
+                            </div>
+                        </div>
+                    </div>
+                <!--  -->
+            </section>
+
+            <section id="discover">
+                    <div class="grid-container-discover">
+                        <div class="grid-item-discover1">
+                            <div class="text-discover">
+                                <p>Lorem ipsum dolor sit amet cique accusantium expedita consequatur debitis doloremque.</p>
+                                <button>See Details</button>
+                            </div>
+                            <div class="image-discover"><img src="./images/room.jpg" alt="">
+                                <p>Location: 123 Riza St. Magsaysay City</p>
+                                <p>No. of Bedrooms: 3 Only</p>
+                                <p>Price: ₱ 10,000 Monthly </p>
+                            </div>
+                        </div>
+                        <div class="grid-item-discover1">
+                            <div class="text-discover">
+                                <p>Lorem ipsum dolor sit amet cique accusantium expedita consequatur debitis doloremque.</p>
+                                <button>See Details</button>
+                            </div>
+                            <div class="image-discover"><img src="./images/room2.jpg" alt="">
+                                <p>Location: 123 Riza St. Magsaysay City</p>
+                                <p>No. of Bedrooms: 3 Only</p>
+                                <p>Price: ₱ 10,000 Monthly </p>
+                            </div>
+                        </div>
+                    </div>
+                <!--  -->
+            </section>
+            <section id="recent">
+                <div class="recent-property-container">
+                    <div class="recent-image">
+                        <img src="./images/house emoji.png" alt="house emoji" class="recent-image">
+                        <h3>Recent Listing</h3>
+                    </div>
+                    
+                    <div class="grid-container1">
+                        <div class="grid-item1">
+                            <img src="./images/condo.jpg" alt="">
+                            <div class="overlay">
+                                <p>123BZ Rizal St. Makati City</p>
+                                <p>3 Storey House with 5 bedrooms</p>
+                                <p>15,000 to 20,000 per month</p>
+                                <button>Rent Now</button>
+                            </div>
+                        </div>
+                        <div class="grid-item2">
+                            <img src="./images/apartment.jpg" alt="">
+                            <div class="overlay">
+                                <p>123BZ Rizal St. Makati City</p>
+                                <p>3 Storey House with 5 bedrooms</p>
+                                <p>15,000 to 20,000 per month</p>
+                                <button>Rent Now</button>
+                            </div>
+                        </div>
+                        <div class="grid-item2">
+                            <img src="./images/house.jpg" alt="">
+                            <div class="overlay">
+                                <p>123BZ Rizal St. Makati City</p>
+                                <p>3 Storey House with 5 bedrooms</p>
+                                <p>15,000 to 20,000 per month</p>
+                                <button>Rent Now</button>
+                            </div>
+                        </div>
+                    </div> <br> <br>
+
+                    <div class="grid-container2">
+                        <div class="grid-item1">
+                            <img src="./images/condo 2.jpg" alt="">
+                            <div class="overlay">
+                                <p>123BZ Rizal St. Makati City</p>
+                                <p>3 Storey House with 5 bedrooms</p>
+                                <p>15,000 to 20,000 per month</p>
+                                <button>Rent Now</button>
+                            </div>
+                        </div>
+                        <div class="grid-item2">
+                            <img src="./images/apartment2.jpg" alt="">
+                            <div class="overlay">
+                                <p>123BZ Rizal St. Makati City</p>
+                                <p>3 Storey House with 5 bedrooms</p>
+                                 <p>15,000 to 20,000 per month</p>
+                                <button>Rent Now</button>
+
+                            </div>
+                        </div>
+                        <div class="grid-item2">
+                            <img src="./images/house2.jpg" alt="">
+                            <div class="overlay">
+                                <p>123BZ Rizal St. Makati City</p>
+                                <p>3 Storey House with 5 bedrooms</p>
+                                <p>15,000 to 20,000 per month</p>
+                                <button>Rent Now</button>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+    
+            </section>
+           
+        </main>
+        <!-- FOOTER -->
+        <footer>
+
+        Footer
+            <!-- <div class="footer-container">
+                <div class="grid-container-footer">
+                    <div class="grid-item-footer1">
+                        <ul>
+                            <h4>Luzon</h4>
+                            <li><a href=""></a>Home</li>
+                            <li><a href=""></a>Condo</li>
+                            <li><a href=""></a>Apartment</li>
+                        </ul>
+                    </div>
+
+                    <div class="grid-item">
+                        <ul>
+                            <h4>Visayas</h4>
+                            <li><a href=""></a>Home</li>
+                            <li><a href=""></a>Condo</li>
+                            <li><a href=""></a>Apartment</li>
+                        </ul>
+                    </div>
+                    <div class="grid-item">
+                        <ul>
+                            <h4>Mindanao</h4>
+                            <li><a href=""></a>Home</li>
+                            <li><a href=""></a>Condo</li>
+                            <li><a href=""></a>Apartment</li>
+                        </ul>
+                    </div>  
+                    <div class="grid-item">
+                        <ul>
+                            <h4>Metro Manila</h4>
+                            <li><a href=""></a>Home</li>
+                            <li><a href=""></a>Condo</li>
+                            <li><a href=""></a>Apartment</li>
+                        </ul>
+                    </div>
+                    <div class="grid-item"> <ul>
+                        <h4>About US</h4>
+                        <li><a href=""></a>Home</li>
+                        <li><a href=""></a>Condo</li>
+                        <li><a href=""></a>Apartment</li>
+                    </ul></div>
+                  </div>                  
+            </div> -->
+            
+        </footer>
+        
+
+        <!-- JS  -->
+
+        <script>
+            var slider = document.getElementById("myRange");
+            var output = document.getElementById("demo");
+            output.innerHTML = slider.value;
+      
+            slider.oninput = function() {
+              output.innerHTML = this.value;
+      }
+          </script>
+    </body>
+</html>
